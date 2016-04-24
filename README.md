@@ -4,17 +4,17 @@
 
 ####在使用时注意事项：
 需要在Info.plist新增一段用于控制ATS的配置：
-'''
+```
 <key>NSAppTransportSecurity</key>
     <dict>
         <key>NSAllowsArbitraryLoads</key>
         <true/>
     </dict>
-'''
+```
 
 
 ####使用示例：
-'''
+```
 override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -39,4 +39,4 @@ override func viewDidLoad() {
         }
         self.view.addSubview(scrollMessageView)
     }
-'''
+```
