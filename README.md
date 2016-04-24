@@ -1,6 +1,9 @@
 # GZBannerCollectionViewDemo
 使用UICollectionView 制作首页滚动图(即首页广告滚动)
+
 同时可以制作成文字滚动（上下循环播放文字）
+
+![](demo.gif)
 
 ####在使用时注意事项：
 需要在Info.plist新增一段用于控制ATS的配置：
